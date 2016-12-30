@@ -10,9 +10,7 @@ public class interpolationSearchDemo {
 
 	for (int i = 0; i < 10; ++i) {
 	    System.out.println("====================");
-	    if(i == 9) {
-		System.out.println("====================");
-	    }
+	    
 	    target = i * 5;
 	    System.out.println("Target: " + target);
 	    
