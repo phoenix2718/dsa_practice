@@ -1,0 +1,54 @@
+========== Test: MaxHeap ==========
+MaxHeap heap = new MaxHeap(new int[]{110, 60, 130, 145, 120});
+heap.size(): 5
+heap.findMax(): 145
+heap.deleteMax();
+heap.size(): 4
+heap.findMax(): 130
+MaxHeap heap2 = new MaxHeap();
+heap2.size(): 0
+heap2.insert(0);
+heap2.size(): 1
+heap2.findMax(): 0
+heap2.deleteMax();
+heap2.size(): 0
+heap2.insert(0);
+heap2.insert(1);
+heap2.insert(2);
+heap2.size(): 3
+heap2.findMax(): 2
+heap2.deleteMax();
+heap2.size(): 2
+heap2.findMax(): 1
+heap2.deleteMax();
+heap2.size(): 1
+heap2.findMax(): 0
+heap2.deleteMax();
+heap2.size(): 0
+========== Test: MinHeap ==========
+MinHeap heap3 = new MinHeap(new int[]{110, 60, 130, 145, 120});
+heap3.size(): 5
+heap3.findMin(): 60
+heap3.deleteMin();
+heap3.size(): 4
+heap3.findMin(): 110
+MinHeap heap4 = new MinHeap();
+heap4.size(): 0
+heap4.insert(0);
+heap4.size(): 1
+heap4.findMin(): 0
+heap4.deleteMin();
+heap2.size(): 0
+heap4.insert(0);
+heap4.insert(1);
+heap4.insert(2);
+heap4.size(): 3
+heap4.findMin(): 0
+heap4.deleteMin();
+heap4.size(): 2
+heap4.findMin(): 1
+heap4.deleteMin();
+heap4.size(): 1
+heap4.findMin(): 2
+heap4.deleteMin();
+heap4.size(): 0
